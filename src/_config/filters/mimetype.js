@@ -1,5 +1,6 @@
-const mime = require('mime-types');
+import mime from 'mime-types';
 
-export default = function mimeType(file) {
+export default function mimeType(file) {
     return mime.lookup(file);
 }
+
